@@ -284,21 +284,25 @@ nav .small-screen-menu-icons img{
     }
 
 }
-.bar{
+.tex{
+    padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+.bar{
+   
     font-size: small;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: white;
     border-radius: 20px;
     width: 70%;
     position: relative;
     bottom: 90px;
     justify-self: center;
-    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.199);
-    
+    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.199); 
 }
+
     @media screen and (max-width: 900px) {
-        .bar{
+        .tex{
             display: block;
         }
     }
