@@ -282,5 +282,23 @@ nav .small-screen-menu-icons img{
         flex-direction: column;
         gap: 40px;
     }
+
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    width: 70%;
+    position: relative;
+    bottom: 90px;
+    justify-self: center;
+    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.199);
     
 }
+    @media screen and (max-width: 900px) {
+        .bar{
+            display: block;
+        }
+    }
