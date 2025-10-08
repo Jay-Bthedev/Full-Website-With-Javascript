@@ -1,4 +1,4 @@
-// alert("connected");
+ alert("You are welcome");
 
 var smallScreenMenuIcons = document.querySelector(".small-screen-menu-icons");
 var navDisplayToggle = false;
