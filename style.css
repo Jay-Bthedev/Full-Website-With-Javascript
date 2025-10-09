@@ -305,4 +305,77 @@ nav .small-screen-menu-icons img{
         .tex{
             display: block;
         }
+  
+    }
+    .part{
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      width: 70%;
+      padding: 20px;
+    }
+    .tick{
+      width: 15px;
+    }
+    .man{
+      width: 10rem;
+      height: 15rem;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .peeps{
+      width: 10rem;
+      height: 10rem;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .part button{
+background-color: #007bff;
+color: #fff;
+height: 40px;
+width: 100px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+    }
+    .part button:hover{
+    background-color: #0056b3;
+}
+    .part h3{
+      font-weight: 800;
+    }
+    .be{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    @media screen and (max-width: 900px) {
+        .part{
+            display: block;
+        }
+  
+    }
+    .we{
+      justify-self: center;
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      gap: 100px;
+      align-content: center;
+    }
+    .we h3{
+      font-weight: 800;
+    }
+    .w{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+    .all{
+      display: flex;
+      align-content: center;
+      flex-direction: column;
     }
