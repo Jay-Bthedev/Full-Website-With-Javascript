@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Javascript Full website</title>
   </head>
   <body>
@@ -76,48 +76,93 @@
     <main>
       <!-- Hero section -->
 
-      <section class="hero-section">
-        <video autoplay muted loop class="swimVideo">
-          <source
-            src="https://www.pexels.com/download/video/854243/"
-            type="video/mp4"
-          />
-        </video>
+      <div class="hero-wrapper">
+        <section class="hero-section">
+          <video autoplay muted loop class="swimVideo">
+            <source
+              src="https://www.pexels.com/download/video/854243/"
+              type="video/mp4"
+            />
+          </video>
 
-        <div class="hero-text">
-          <h1>We make water people</h1>
-          <p>Learning to swim without fear - that is our mission</p>
-          <a href="#" class="btn">Get started now</a>
-        </div>
-      </section>
+          <div class="hero-text">
+            <h1>We make water people</h1>
+            <p>Learning to swim without fear - that is our mission</p>
+            <a href="#" class="btn">Get started now</a>
+          </div>
+        </section>
+
+        <!-- our highlights -->
+
+        <section class="highlights-section">
+
+
+          <div class="highlights">
+            <div class="highlight swimmingpoolhighlight">
+              <!-- <i class="fa fa-shield highlight-icon" aria-hidden="true"></i> -->
+              <img
+                src="https://img.icons8.com/?size=100&id=25980&format=png&color=000000"
+                alt="safety-icon"
+                class="highlight-icon"
+              />
+              <h3>Swimming pool</h3>
+              <p>
+                You learn to swim in the summer ! Find a partner swimming school
+                in your area.
+              </p>
+
+              <h4>Show Swimming School</h4>
+            </div>
+
+            <div class="highlight">
+              <img
+                src="https://img.icons8.com/?size=100&id=119604&format=png&color=000000"
+                class="highlight-icon"
+              />
+
+              <h3>Swimming Lessons</h3>
+              <p>
+                Anyone can learn to swim. But can it be done in a fun and
+                playful way without any fear? We have been practicing our
+                modular system for over 10 years.
+              </p>
+              <h4>Show Swimming Lessons</h4>
+            </div>
+
+            <div class="highlight">
+              <img
+                src="https://img.icons8.com/?size=100&id=yYE4xyM0WjW8&format=png&color=000000"
+                class="highlight-icon"
+              />
+              <h3>Parent teach swimming</h3>
+              <p>
+                Many parents dont know how to help their child during the
+                "learning to swim" phase. We will show you
+              </p>
+              <h4>More info</h4>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- modal or popups -->
+
+      <section class="swimming-popup">
+
+        <img
+          src="https://img.icons8.com/?size=100&id=3062&format=png&color=ffffff"
+          alt="menu-icon"
+          id="menu-icon"
+          class="close-icon popup-close-icon"
+        />
+            
+            <iframe  src="https://www.youtube.com/embed/aE-B5bWW6cc?si=JJZIyQAeQijnFas3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
     </main>
     <section>
-        <div class="bar">
-            <div class="tex">
-            <div>
-                <img src="https://img.icons8.com/?size=100&id=25980&format=png&color=000000">
-                <p> Swimming Pools</p>
-                <P>You learn to swim in the summer!</P>
-                <p>Find a partner swimming schools in your area.</p>
-                <p>Show swimming schools</p>
-            </div>
-            <div>
-                <img src="https://img.icons8.com/?size=100&id=R7Igfc4tTdEx&format=png&color=000000">
-                <p>Swimming Lessons</p>
-                <p>Anyone can learn to swim. But can it be<br> done in a fun and playful
-                    way and without <br>any fear? We have been practicing our<br> modular system for over 10 years.
-                </p>
-                <p>Show swimming lessons</p>
-            </div>
-            <div><img src="https://img.icons8.com/?size=100&id=VytB1idkcv8m&format=png&color=000000">
-            <p>Parents teach swimming</p>
-            <p>many parents don't know how to help<br> their children during the "learning to swim"<br> phase. we'll show you</p>
-            </div>
-            </div>
-        </div>
-        <div class="part">
+<div class="part">
           <div>
-            <img src="https://cdn.dribbble.com/userupload/32665896/file/original-6f9e451fb998aff3f8e40a93d2784f2a.jpeg?format=webp&resize=320x240&vertical=center" class="man">
+            <img src="https://images.pexels.com/photos/9030520/pexels-photo-9030520.jpeg" class="man">
           </div>
           <div>
             <img src="https://cdn.dribbble.com/userupload/42168523/file/original-6ca81d5de17ef76b93f989865c952e38.jpg?format=webp&resize=320x240&vertical=center" class="peeps">
@@ -126,7 +171,7 @@
 <h3>Become a partner</h3>
 <p> would you like to start your own swiming school?</p>
 <p> do you want to help many children become water-safe through fun games?</p>
-<div>
+<div class="be">
 <p><img src="https://img.icons8.com/?size=100&id=LIJyJk6uLwwW&format=png&color=40C057" class="tick">
  Complete course & module system</p>
  <p> <img src="https://img.icons8.com/?size=100&id=LIJyJk6uLwwW&format=png&color=40C057" class="tick">
@@ -137,36 +182,7 @@ Included swim school website with content</p>
 </div>
         </div>
     </section>
-    <section>
-      <div class="we">
-      <div class="w">
-        <h3>We make water <br>people</h3>
-        <div class="all">
-          <div>
-            <button>
-              <h1>3700+</h1>
-<p>Complete Projects</p>
-            </button>
-            <button>
-              <h1> 450k+</h1>
-             <p> Happy Customer</p>
-            </button>
-          </div>
-          <div class="all">
-          <button>
-            <h1>297k+</h1>
-<p> Loyal Employee</p>
-          </button>
-          <button>
-            <h1>297k+</h1>
-          <p>Super Agents</p>
-          </button>
-          </div>
-        </div>
-      </div>
-      <div> <img src="https://cdn.dribbble.com/userupload/42168523/file/original-6ca81d5de17ef76b93f989865c952e38.jpg?format=webp&resize=320x240&vertical=center"></div>
-      </div>
-    </section>
+   
 
     <script src="vanilla.js"></script>
   </body>
