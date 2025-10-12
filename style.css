@@ -260,7 +260,7 @@ nav .small-screen-menu-icons img{
 }
 .hero-text a{
   text-decoration: none;
-    color: #fff;
+    color:  #f4f4f4;
     background-color: #007bff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -276,8 +276,9 @@ nav .small-screen-menu-icons img{
 
 .highlights-section{
   position: relative;
-  top: -100px;
+  top: -95px;
   z-index: 999;
+  height: 20%px;
 }
 
 
@@ -290,7 +291,7 @@ nav .small-screen-menu-icons img{
     width: 80%;
     margin: auto;
    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.283);
-    background-color: #fff;
+    background-color:  #f4f4f4;
     z-index: 999;
     border-radius: 20px;
     
@@ -312,7 +313,7 @@ nav .small-screen-menu-icons img{
     padding: 10px 20px;
     border-radius: 10px;
     cursor:pointer;
-    height: 300px;
+    height: 335px;
    
   }
 
@@ -411,10 +412,11 @@ iframe{
     }
 
     
-}
+}   
+
 .part{
       display: flex;
-      justify-self: center;
+      justify-self: center;   
       align-items: center;
       justify-content: space-between;
       gap: 20px;
@@ -462,4 +464,178 @@ cursor: pointer;
         }
   
     }
+    .sec{
+      background-color: #00b7ff1a;
+      padding-top: 80px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding-bottom: 80px;
+    }
+    .slider-container {
+  width: 80%;
+  max-width: 1200px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  background:  #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  justify-self: center;
+  scroll-behavior: smooth;
+}
+
+.slider-track {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+}
+
+.slide {
+  flex: 0 0 calc(100% / 3 - 20px);
+  background:  #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  scroll-snap-align: start;
+  text-align: left;
+  transition: transform 0.3s ease;
+  min-width: calc(100% / 3 - 20px);
+  cursor: pointer;
+}
+.slide:hover{
+   border: ridge #007bff ;
+}
+
+.slide img {
+  font-size: 40px;
+  color: #007BFF;
+  background-color:  #f4f4f4;
+  border: outset;
+  border-radius: 60px;
+  object-fit: cover;
+  width: 55px;
+  justify-self: center;
+  
+}
+
+.slide h3 {
+  font-size: 17px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.slide p {
+  font-size: 14px;
+  color: #555;
+}
+.slider-container::-webkit-scrollbar {
+  display: none; 
+}
+@media screen and (max-width: 900px) {
+        .slide{
+            display: block;
+        }
+  
+    }
+
+.rio{
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  padding: 30px;
+  gap: 40px;
+  align-items: center;
+  width: 80%;
+  font-size: large;
+}
+.ric{
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  padding: auto;
+}
+
+.we{
+display: flex;
+flex-direction: column;
+gap: 20px;
+ text-align: left;
+ padding: auto;
+}
+
+.ro{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.ro h3{
+  font-weight: 600;
+}
+
+.ro button{
+  border: none;
+  background: white;
+  border-radius: 10px;
+  height: 70px;
+  width: 100px;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.in{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  top:40px ;
+  right: 100px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+        .rio{
+            display: block;
+        }
+  .in{
+display: none;
+  }
+  
+    }
+    .sect{
+      background-color: #00b7ff1a;
+      padding-top: 80px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      padding-bottom: 80px;
+      justify-content: center;
+      text-align: center;
+    }
+    .ki{
+      display: flex;
+      background-color: red;
+      width: 80%;
+      justify-self: center;
+      
     
+    }
+    alki{
+      display: flex;
+    }
+
+
+    .k{
+      background-color: orange;
+      color: #fff;
+      font-weight: 600;
+      font-size: 30px;
+      border-radius: 90px;
+      width: 50px;
+      height: 50px;
+      text-align: left;
+      object-fit: cover;
+    }

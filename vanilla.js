@@ -1,4 +1,4 @@
-  alert("connected");
+  alert(" You are welcome");
 
 var smallScreenMenuIcons = document.querySelector(".small-screen-menu-icons");
 var navDisplayToggle = false;
@@ -39,3 +39,7 @@ swimmingPoolHighlight.addEventListener("click", function () {
  popupcloseIcon.addEventListener("click", function () {
     swimmingPopup.style.display = "none";
 })
+
+
+
+
