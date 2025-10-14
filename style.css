@@ -738,24 +738,25 @@ flex-wrap: wrap;
         .wt{
           width: 80%;
           justify-self: center;
+          display: flex;
+          flex-direction: column;
+          padding: 40px 40px; 
+          gap: 20px;
+        }
+        .wt h3{
+          font-weight: 600;
         }
         .wav{
           width: 100px;
           height: 30px;
-          padding-left: 10px;
         }
       .pict{
         display: flex;
-        flex-direction: row;
         justify-self: center;
-        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
         
        } 
-       .wa{
-        padding-left: 30px;
-        padding-top: 30px;
-       }
-       
         .pic{
 width: 300px;
 height: 200px;
@@ -765,27 +766,29 @@ border-radius: 20px;
           justify-self: center;
           display: flex;
           flex-direction: row;
-          padding: 20px;
+          padding: px;
           gap: 45rem;
         }
         .late button{
           background-color: #007BFF;
           border-radius: 20px;
           width: 100px;
+          height: 30px;
           border: none;
         }
         .late button:hover{
           opacity: 0.8;
         }
         .wic{
+          display: flex;
+          flex-direction: column;
           text-align: left;
           width: 320px;
           border: none;
-          align-items: center;
           box-shadow: 0 2px 8px rgba(0,0,0,0.1);
           border-radius: 20px;
           padding: 10px;
-          gap: 20px;
+          gap: 10px;
         }
         
         .wic:hover{
@@ -804,9 +807,67 @@ border-radius: 20px;
           }
          }
 
-        /* last section */
-        br{
-          background-color: #0056b3;
-          padding: 20px;
-          border: ridge;
+        /* promise */
+        .br{
+          padding: 60px 60px;
+          gap: 12px;
+          display: flex;
+          flex-direction: column;
+          justify-self: center;
+          width: 80%;
+color: #fff;
         }
+        .br h3{
+          font-weight: 600;
+        }
+        .br p{
+          font-weight: 300;
+        }
+       
+        .br button{
+          border: none;
+          background-color: yellow;
+          border-radius: 20px;
+          width: 200px;
+          height: 40px;
+          cursor: pointer;
+        }
+        .br button:hover{
+          opacity: 0.7;
+        }
+.wq{
+   width: 100px;
+          height: 30px;
+}
+/* footer */
+.foote{
+  background-color: #041931cc;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px ;
+  color: white;
+  width: 80%;
+  justify-self: center;
+}
+.footer img{
+  width: 20px;
+}
+
+.footer a{
+color: white;
+text-decoration: none;
+font-weight: 300;
+}
+.footer dd{
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer dl{
+  font-weight: 300;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
