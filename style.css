@@ -423,7 +423,6 @@ iframe{
       display: flex;
       justify-self: center;   
       align-items: center;
-      justify-content: space-between;
       gap: 20px;
       width: 82%;
     }
@@ -492,7 +491,6 @@ cursor: pointer;
 .slider-track {
   display: flex;
   gap: 20px;
-  padding: 40px;
 }
 
 .slide {
@@ -560,6 +558,10 @@ cursor: pointer;
   border-radius: 10px;
   padding: auto;
 }
+.w{
+  width: 80px;
+height: 20px;
+}
 
 .we{
 display: flex;
@@ -579,6 +581,8 @@ gap: 20px;
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .ro h3{
@@ -612,12 +616,13 @@ gap: 20px;
 
 @media screen and (max-width: 900px) {
         .rio{
-            display: block;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
         }
   .in{
 display: none;
   }
-  
   
     }
     /* testimonial section */
@@ -741,7 +746,12 @@ flex-wrap: wrap;
   margin: auto;
  
 }
-
+.testimonial-section h2{
+  padding-left: 40px;
+}
+.wavy{
+  padding-left: 100px;
+}
         }
 
         /* news */
@@ -751,7 +761,8 @@ flex-wrap: wrap;
           justify-self: center;
           display: flex;
           flex-direction: column;
-          padding: 40px 40px; 
+          padding-top: 40px;
+          padding-bottom: 40px; 
           gap: 20px;
         }
         .wt h3{
@@ -778,7 +789,7 @@ border-radius: 20px;
           display: flex;
           flex-direction: row;
           padding: px;
-          gap: 45rem;
+          gap: 54rem;
         }
         .late button{
           background-color: #007BFF;
@@ -811,10 +822,14 @@ border-radius: 20px;
         }
          @media screen and (max-width: 900px) { 
          .pict{
-          display: block;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
          }
           .late{
-            display: block;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
           }
          }
 
