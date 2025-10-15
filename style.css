@@ -237,6 +237,10 @@ nav .small-screen-menu-icons img{
   background-color: green;
   object-fit: cover;
 }
+.cl{
+  width: 100px;
+  height: 30px;
+}
 .hero-text{
   position: absolute;
   display: flex;
@@ -384,6 +388,9 @@ iframe{
     .highlights{
       align-items: start;
     }
+    .hero-text h1{
+font-size: 0.1 rem;
+    }
 }
 @media screen and (max-width: 1024px) {
    nav .nav-links{
@@ -425,6 +432,7 @@ iframe{
       align-items: center;
       gap: 20px;
       width: 82%;
+      padding-bottom: 40px;
     }
     .tick{
       width: 15px;
@@ -464,6 +472,9 @@ cursor: pointer;
     @media screen and (max-width: 900px) {
         .part{
             display: block;
+        }
+        .be{
+          padding-top: 20px;
         }
   
     }
@@ -582,7 +593,7 @@ gap: 20px;
   justify-content: space-evenly;
   gap: 20px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .ro h3{
@@ -618,7 +629,7 @@ gap: 20px;
         .rio{
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 30px;
         }
   .in{
 display: none;
@@ -805,12 +816,12 @@ border-radius: 20px;
           display: flex;
           flex-direction: column;
           text-align: left;
-          width: 320px;
+          width: 305px;
           border: none;
           box-shadow: 0 2px 8px rgba(0,0,0,0.1);
           border-radius: 20px;
-          padding: 10px;
-          gap: 10px;
+          padding: 0px;
+          align-items: start;
         }
         
         .wic:hover{
@@ -819,13 +830,25 @@ border-radius: 20px;
         }
         .wic h3{
           font-weight: 600;
+          padding: 10px;
+        }
+        .wic p{
+          padding: 10px;
         }
          @media screen and (max-width: 900px) { 
          .pict{
           display: flex;
           flex-direction: column;
           gap: 10px;
+         
          }
+         .pic{
+          width: 250px;
+         }
+         .wic{
+          width: 255px;
+         }
+         
           .late{
             display: flex;
             flex-direction: column;
@@ -835,7 +858,7 @@ border-radius: 20px;
 
         /* promise */
         .br{
-          padding: 60px 60px;
+          padding: 30px 30px;
           gap: 12px;
           display: flex;
           flex-direction: column;
@@ -916,7 +939,9 @@ font-weight: 300;
 
  @media screen and (max-width: 900px) {
   .footer{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   .yu{
     display: block;
