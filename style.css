@@ -485,6 +485,7 @@ cursor: pointer;
       padding-top: 80px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
       padding-bottom: 80px;
+      
     }
     .slider-container {
   width: 80%;
@@ -497,11 +498,13 @@ cursor: pointer;
   border-radius: 10px;
   justify-self: center;
   scroll-behavior: smooth;
+  
 }
 
 .slider-track {
   display: flex;
   gap: 20px;
+  
 }
 
 .slide {
@@ -514,6 +517,7 @@ cursor: pointer;
   transition: transform 0.3s ease;
   min-width: calc(100% / 3 - 20px);
   cursor: pointer;
+ 
 }
 .slide:hover{
    border: ridge #007bff ;
@@ -554,20 +558,21 @@ cursor: pointer;
 
 .rio{
   display: flex;
-  justify-content: space-between;
-  justify-self: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  justify-self: start;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 80px;
   gap: 40px;
-  align-items: center;
+
   width: 80%;
   font-size: large;
 }
 .ric{
-  width: 300px;
+  width: 280px;
   height: 350px;
   border-radius: 10px;
-  padding: auto;
+  position: absolute;
+
 }
 .w{
   width: 80px;
@@ -577,9 +582,11 @@ height: 20px;
 .we{
 display: flex;
 flex-direction: column;
+align-items: center;
 gap: 20px;
  text-align: left;
  padding: auto;
+ 
 }
 .wh{
   display: flex;
@@ -592,8 +599,8 @@ gap: 20px;
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-left: 20px;
+
 }
 
 .ro h3{
@@ -614,28 +621,83 @@ gap: 20px;
   flex-direction: column;
   gap: 20px;
 }
+.col button{
+  width: 110px;
+}
 
 .in{
-  width: 200px;
+  width: 140px;
   height: 200px;
   border-radius: 10px;
   position: relative;
-  top:40px ;
-  right: 100px;
-  object-fit: cover;
+  top:200px ;
+  left: 220px;
+  z-index: 999;
+  box-shadow:  0 0 10px rgba(0,0,0,0.2);
 }
 
-@media screen and (max-width: 900px) {
+  
+
+.pu{
+  object-fit: cover;
+  width: 30px;
+}
+.ri{
+  display: flex;
+  box-shadow:  0 0 10px rgba(0,0,0,0.2);
+  width: 180px;
+  height: 80px;
+  padding-left: 10px;
+  gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+  left: 90px;
+  background-color: #fff;
+  z-index: 9999;
+}
+.r{
+  position: relative;
+  bottom: 200px;
+  background-color: #fff;
+  width: 180px;
+  display: flex;
+  gap: 10px;
+   height: 60px;
+   padding-left: 10px;
+   align-items: center;
+   border-radius: 10px;
+   left: 180px;
+   box-shadow:  0 0 10px rgba(0,0,0,0.2);
+}
+.pa{
+   object-fit: contain;
+  width: 30px;
+  border-radius: 30px;
+  height: 30px;
+  background-color: rgb(214, 58, 84);
+  align-items: center;
+  padding: 8px;
+}
+
+@media screen and (max-width: 900px){
         .rio{
             display: flex;
-            flex-direction: column;
-            gap: 30px;
+    flex-direction: column;
+   
         }
-  .in{
-display: none;
+  
+   
+  .r{
+    display: block;
   }
   
+ 
+  
     }
+    
+    
     /* testimonial section */
 
 .testimonial-section{
@@ -670,7 +732,6 @@ flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   z-index: 800;
-  padding: 0px 40px;
 }
 
 .testimonial-card .testimonial-content{
@@ -768,12 +829,13 @@ flex-wrap: wrap;
         /* news */
       
         .wt{
-          width: 80%;
-          justify-self: center;
+          width: 100%;
+          padding:40px 20px;
+                
+
           display: flex;
           flex-direction: column;
-          padding-top: 40px;
-          padding-bottom: 40px; 
+           
           gap: 20px;
         }
         .wt h3{
@@ -782,12 +844,19 @@ flex-wrap: wrap;
         .wav{
           width: 100px;
           height: 30px;
+          
+        }
+        .mk{
+          align-self: center;
+          width: 80%;
+          
         }
       .pict{
         display: flex;
         justify-self: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         gap: 10px;
+      
         
        } 
         .pic{
@@ -796,11 +865,13 @@ height: 200px;
 border-radius: 20px;
         }
         .late{
-          justify-self: center;
+      
           display: flex;
           flex-direction: row;
-          padding: px;
-          gap: 54rem;
+      justify-content: space-between;
+      align-self: center;
+    width: 80%;
+    
         }
         .late button{
           background-color: #007BFF;
@@ -816,12 +887,12 @@ border-radius: 20px;
           display: flex;
           flex-direction: column;
           text-align: left;
-          width: 305px;
+          width: 303px;
+          
           border: none;
           box-shadow: 0 2px 8px rgba(0,0,0,0.1);
           border-radius: 20px;
-          padding: 0px;
-          align-items: start;
+         
         }
         
         .wic:hover{
@@ -839,14 +910,16 @@ border-radius: 20px;
          .pict{
           display: flex;
           flex-direction: column;
-          gap: 10px;
-         
+          gap: 20px;
+          padding: 0 0px;
+        
          }
          .pic{
           width: 250px;
          }
          .wic{
           width: 255px;
+          
          }
          
           .late{
@@ -858,13 +931,39 @@ border-radius: 20px;
 
         /* promise */
         .br{
-          padding: 30px 30px;
-          gap: 12px;
-          display: flex;
-          flex-direction: column;
-          justify-self: center;
-          width: 80%;
+          padding: 30px ;
+                      
 color: #fff;
+        }
+        .bg{
+          display: flex;
+          justify-content: space-between;
+          width: 90%;
+          justify-self: center;
+          padding: 0 20px;
+        }
+        .u{
+          position: relative;
+          background-color: #007BFF;
+          border-radius: 100% 60% 0 0 / 100% 100% 0 0 ;
+          width: 330px;
+      top: 50px;
+        
+          left: 50px;
+          height:  200px;
+        
+        }
+        .gp{
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+        }
+        
+        
+        .peep{
+          width: 400px;
+          
+        
         }
         .br h3{
           font-weight: 600;
@@ -890,7 +989,10 @@ color: #fff;
 }
 /* footer */
 .foote{
-  background-color: #011935cc;
+  background-color: #081d35fa;
+  width: 100%;
+    position: absolute;
+    z-index: 9999;
 }
 .footer{
   display: flex;
@@ -898,8 +1000,9 @@ color: #fff;
   justify-content: space-between;
   padding: 40px ;
   color: white;
-  width: 80%;
+  width: 90%;
   justify-self: center;
+
 }
 .footer img{
   width: 20px;
@@ -934,7 +1037,8 @@ font-weight: 300;
   display: flex;
   justify-content: space-between;
   justify-self: center;
-  width: 80%;
+  width: 90%;
+  padding-left: 10px;
 }
 
  @media screen and (max-width: 900px) {
@@ -944,6 +1048,9 @@ font-weight: 300;
     gap: 20px;
   }
   .yu{
+    display: block;
+  }
+  .bg{
     display: block;
   }
  }
