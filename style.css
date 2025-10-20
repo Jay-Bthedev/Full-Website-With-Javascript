@@ -680,6 +680,22 @@ gap: 20px;
   align-items: center;
   padding: 8px;
 }
+@media screen and (max-width: 340px){
+  
+  .in{
+    display: none;
+  }
+.r{
+  display: none;
+}
+.ric{
+  display: none;
+}
+.ri{
+  display: none;
+}
+
+}
 
 @media screen and (max-width: 900px){
         .rio{
@@ -688,12 +704,9 @@ gap: 20px;
    
         }
   
-   
-  .r{
-    display: block;
-  }
-  
- 
+ .ti{
+  padding-left: 10px;
+ }
   
     }
     
@@ -1053,4 +1066,13 @@ font-weight: 300;
   .bg{
     display: block;
   }
+
  }
+  @media screen and (max-width: 500px) {
+.peep{
+  display: none;
+}
+.u{
+  display: none;
+}
+  }
