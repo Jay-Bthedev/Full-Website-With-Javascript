@@ -392,7 +392,7 @@ iframe{
 font-size: 0.1 rem;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
    nav .nav-links{
     display:none;
    }
@@ -558,13 +558,9 @@ cursor: pointer;
 
 .rio{
   display: flex;
-  justify-self: start;
   justify-content: space-evenly;
   padding-top: 80px;
   padding-bottom: 80px;
-  gap: 40px;
-
-  width: 80%;
   font-size: large;
 }
 .ric{
@@ -656,10 +652,13 @@ gap: 20px;
   left: 90px;
   background-color: #fff;
   z-index: 9999;
+
 }
 .r{
-  position: relative;
-  bottom: 200px;
+position: relative;
+left: 150px;
+top: -180px;
+  z-index: 9999;
   background-color: #fff;
   width: 180px;
   display: flex;
@@ -668,7 +667,6 @@ gap: 20px;
    padding-left: 10px;
    align-items: center;
    border-radius: 10px;
-   left: 180px;
    box-shadow:  0 0 10px rgba(0,0,0,0.2);
 }
 .pa{
@@ -682,18 +680,7 @@ gap: 20px;
 }
 @media screen and (max-width: 340px){
   
-  .in{
-    display: none;
-  }
-.r{
-  display: none;
-}
-.ric{
-  display: none;
-}
-.ri{
-  display: none;
-}
+  
 
 }
 
@@ -705,9 +692,29 @@ gap: 20px;
         }
   
  .ti{
-  padding-left: 10px;
+  display: block;
+  justify-self: center;
+  padding-top: 20px;
+  align-self: center;
+  padding-right: 80px;
+  
+  
+ }
+ .r{
+  width: 160px;
+ }
+ .in{
+  width: 90px;
  }
   
+    }
+    @media screen and (max-width: 320px){
+.r{
+  width: 135px;
+}
+.in{
+  width: 65px;
+}
     }
     
     
@@ -715,11 +722,12 @@ gap: 20px;
 
 .testimonial-section{
   background: #00b7ff1a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 80px 0px;
+  display: block;
+  justify-self: center;
+  width: 100%;
+  
+  
+  
 }
 .testimonials-wrapper{
   display: flex;
@@ -752,6 +760,9 @@ flex-wrap: wrap;
   border-radius: 20px;
   padding: 80px 20px;
   margin-top: -30px;
+}
+.let{
+justify-self: center;
 }
 
 .testimonial-card .testimonial-upper-left{
@@ -790,6 +801,7 @@ flex-wrap: wrap;
   .wavy{
   width: 200px;
   height: 40px;
+  
 }
 .testimonial-button-wrapper{
   background-color: white;
@@ -835,21 +847,21 @@ flex-wrap: wrap;
   padding-left: 40px;
 }
 .wavy{
-  padding-left: 100px;
+  justify-content: center;
 }
         }
 
         /* news */
       
         .wt{
-          width: 100%;
+          width: 90%;
           padding:40px 20px;
                 
 
           display: flex;
           flex-direction: column;
            
-          gap: 20px;
+          gap: 50px;
         }
         .wt h3{
           font-weight: 600;
@@ -869,6 +881,7 @@ flex-wrap: wrap;
         justify-self: center;
         justify-content: space-evenly;
         gap: 10px;
+        width: 100%;
       
         
        } 
@@ -876,6 +889,7 @@ flex-wrap: wrap;
 width: 300px;
 height: 200px;
 border-radius: 20px;
+justify-self: center;
         }
         .late{
       
@@ -923,8 +937,6 @@ border-radius: 20px;
          .pict{
           display: flex;
           flex-direction: column;
-          gap: 20px;
-          padding: 0 0px;
         
          }
          .pic{
@@ -937,8 +949,6 @@ border-radius: 20px;
          
           .late{
             display: flex;
-            flex-direction: column;
-            gap: 10px;
           }
          }
 
@@ -974,7 +984,7 @@ color: #fff;
         
         
         .peep{
-          width: 400px;
+          width: 300px;
           
         
         }
