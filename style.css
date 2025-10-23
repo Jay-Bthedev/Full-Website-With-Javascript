@@ -860,8 +860,7 @@ justify-self: center;
 
           display: flex;
           flex-direction: column;
-           
-          gap: 50px;
+           gap: 10px;
         }
         .wt h3{
           font-weight: 600;
