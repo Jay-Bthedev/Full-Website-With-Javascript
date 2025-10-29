@@ -710,10 +710,10 @@ top: -180px;
     }
     @media screen and (max-width: 320px){
 .r{
-  width: 135px;
+  width: 79%;
 }
 .in{
-  width: 65px;
+  width: 40%;
 }
     }
     
@@ -762,6 +762,7 @@ flex-wrap: wrap;
   margin-top: -30px;
 }
 .let{
+  padding-top: 40px;
 justify-self: center;
 }
 
@@ -854,10 +855,8 @@ justify-self: center;
         /* news */
       
         .wt{
-          width: 90%;
-          padding:40px 20px;
-                
-
+          padding-top: 40px;
+          padding-bottom: 40px;
           display: flex;
           flex-direction: column;
            gap: 10px;
@@ -877,18 +876,15 @@ justify-self: center;
         }
       .pict{
         display: flex;
-        justify-self: center;
+        flex-direction: row;
         justify-content: space-evenly;
-        gap: 10px;
-        width: 100%;
-      
-        
+
        } 
         .pic{
-width: 300px;
+width: 100%;
 height: 200px;
 border-radius: 20px;
-justify-self: center;
+object-fit: cover;
         }
         .late{
       
@@ -913,8 +909,7 @@ justify-self: center;
           display: flex;
           flex-direction: column;
           text-align: left;
-          width: 303px;
-          
+          width: 27%;
           border: none;
           box-shadow: 0 2px 8px rgba(0,0,0,0.1);
           border-radius: 20px;
@@ -927,24 +922,25 @@ justify-self: center;
         }
         .wic h3{
           font-weight: 600;
-          padding: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 10px;
         }
         .wic p{
-          padding: 10px;
+          padding-left: 10px;
+          padding-right: 10px;
         }
          @media screen and (max-width: 900px) { 
          .pict{
           display: flex;
-          flex-direction: column;
+          
         
          }
-         .pic{
-          width: 250px;
-         }
          .wic{
-          width: 255px;
-          
+          font-size: 8px;
+          height: auto;
          }
+        
          
           .late{
             display: flex;
@@ -953,8 +949,7 @@ justify-self: center;
 
         /* promise */
         .br{
-          padding: 30px ;
-                      
+          padding: 30px ;            
 color: #fff;
         }
         .bg{
