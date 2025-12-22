@@ -358,7 +358,7 @@ nav .small-screen-menu-icons img{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 10000;
     
 }
 iframe{
@@ -710,10 +710,10 @@ top: -180px;
     }
     @media screen and (max-width: 320px){
 .r{
-  width: 79%;
+  width: 77%;
 }
 .in{
-  width: 40%;
+  width: 37%;
 }
     }
     
@@ -732,7 +732,7 @@ top: -180px;
 .testimonials-wrapper{
   display: flex;
   gap: 32px;
-flex-wrap: wrap;
+width: 90%;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -771,10 +771,10 @@ justify-self: center;
   color: white;
   padding: 16px 32px;
   border-radius: 10px;
-  width: 200px;
+  width: 70%;
 }
 .testimonial-name{
-  text-wrap: nowrap;
+  text-wrap: wrap;
 }
 .testimonial-upper-right{
   background-color: rgb(255, 255, 255);
@@ -786,7 +786,6 @@ justify-self: center;
 
 .testimonial-card .testimonial-user-img{
   border: 50%;
-  object-fit: cover;
   width: 100%;
   height: 100%;
 }
@@ -797,6 +796,7 @@ justify-self: center;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  padding-bottom: 40px;
 }
 
   .wavy{
@@ -840,7 +840,7 @@ justify-self: center;
             display: block;
           }
           .testimonial-section .testimonial-card{
-  width: 80%;
+  width: 60%;
   margin: auto;
  
 }
@@ -871,7 +871,7 @@ justify-self: center;
         }
         .mk{
           align-self: center;
-          width: 80%;
+          width: 89%;
           
         }
       .pict{
@@ -892,7 +892,7 @@ object-fit: cover;
           flex-direction: row;
       justify-content: space-between;
       align-self: center;
-    width: 80%;
+    width: 89%;
     
         }
         .late button{
@@ -929,16 +929,28 @@ object-fit: cover;
         .wic p{
           padding-left: 10px;
           padding-right: 10px;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
          @media screen and (max-width: 900px) { 
          .pict{
           display: flex;
-          
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
         
          }
+          .late{
+             width: 80%;
+          }
+           .mk{
+            width: 80%;
+           }
          .wic{
           font-size: 8px;
           height: auto;
+          width: 80%;
+
          }
         
          
@@ -964,7 +976,7 @@ color: #fff;
           background-color: #007BFF;
           border-radius: 100% 60% 0 0 / 100% 100% 0 0 ;
           width: 330px;
-      top: 50px;
+      top: 70px;
         
           left: 50px;
           height:  200px;
@@ -979,6 +991,8 @@ color: #fff;
         
         .peep{
           width: 300px;
+          position: absolute;
+          top: 43px;
           
         
         }
@@ -1006,7 +1020,7 @@ color: #fff;
 }
 /* footer */
 .foote{
-  background-color: #081d35fa;
+  background-color: #081d35;
   width: 100%;
     position: absolute;
     z-index: 9999;
@@ -1058,7 +1072,25 @@ font-weight: 300;
   padding-left: 10px;
 }
 
+
+
+@media screen and (max-width: 1440px) {
+.u {
+  position: relative;
+  top: 50px;
+}
+}
+@media screen and (max-width: 1030px) {
+.u {
+  position: relative;
+  top: 70px;
+}
+}
+
  @media screen and (max-width: 900px) {
+  .testimonials-wrapper{
+    width: 80%;
+  }
   .footer{
     display: flex;
     flex-direction: column;
@@ -1070,13 +1102,48 @@ font-weight: 300;
   .bg{
     display: block;
   }
+  .peep{
+  width: 100%;
+  position: absolute;
+  top: -10px;
+}
 
  }
   @media screen and (max-width: 500px) {
+    .hero-text h1{
+      font-size: 2rem;
+    }
+    .testimonials-wrapper{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
 .peep{
-  display: none;
+  width: 100%;
+  position: absolute;
+  top: 10px;
 }
 .u{
-  display: none;
+ 
+  width: 100%;
 }
+  }
+  @media screen and (max-width: 375px) {
+    .hero-text h1{
+      font-size: 1.8rem;
+    }
+    .peep{
+      position: absolute;
+       top: 30px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .hero-text h1{
+      font-size: 1.6rem;
+    }
+    .peep{
+      position: absolute;
+       top: 58px;
+    }
+  
   }

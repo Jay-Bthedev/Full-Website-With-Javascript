@@ -16,7 +16,7 @@ var swimmingLessonsHighlight = document.querySelector(
 var swimmingParentHighlight = document.querySelector(
   ".swimmingparenthighlight"
 );
-
+var swimmingplay = document.querySelector(".pa")
 smallScreenLinks.addEventListener('click', function () {
     smallScreenMenu.style.display = "none";
     closeIcon.style.display = "none";
@@ -59,9 +59,19 @@ swimmingParentHighlight.addEventListener("click", function () {
     "https://www.youtube.com/embed/k9cOlZJynyQ?si=kSzH3UDw1NxuNPLO";
   swimHighlightYoutube.title = "Swimming for Parents";
 });
+
+swimmingplay.addEventListener("click", function () {
+  swimmingPopup.style.display = "flex";
+  swimHighlightYoutube.src =
+    "https://www.youtube.com/embed/dzVA-gVEqUQ?si=8c1MPxim-YzO4BDk";
+  swimHighlightYoutube.title = "Swimming for Kids";
+});
 popupcloseIcon.addEventListener("click", function () {
   swimmingPopup.style.display = "none";
 });
+
+
+
 
 // where comments is being fetched
 
